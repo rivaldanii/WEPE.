@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WEPE - Made for Great Escapes</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+
+        <!-- Logo -->
+        <div class="logo">
+            WEPE
+        </div>
+
+        <!-- Menu -->
+        <nav class="menu">
+            <a href="#">WOMEN</a>
+            <a href="#">MEN</a>
+            <a href="#">KIDS</a>
+            <a href="#">WEPE CHARMS</a>
+            <a href="#">SALE</a>
+            <a href="#">SPECIAL</a>
+        </nav>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" placeholder="Search for keyword">
+            <button>⌕</button>
+        </div>
+
+        <!-- Icons -->
+        <div class="icons">
+            <span title="Wishlist">♡</span>
+            <span title="Shopping Cart">🛒</span>
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+
+            <p class="collection">
+                WEPE COLLECTION
+            </p>
+
+            <h1>
+                Tampil percaya diri setiap hari. Temukan gaya sejatimu di sini
+            </h1>
+
+            <button class="shop-button">
+                SHOP NOW
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-container">
+
+            <!-- Logo -->
+            <div class="footer-column">
+                <h2 class="footer-logo">WEPE</h2>
+
+                <p>
+                    Comfortable footwear made for
+                    every journey and adventure.
+                </p>
+            </div>
+
+
+            <!-- Shop -->
+            <div class="footer-column">
+
+                <h3>SHOP</h3>
+
+                <a href="#">Sandals</a>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Kids</a>
+
+            </div>
+
+
+            <!-- Help -->
+            <div class="footer-column">
+
+                <h3>HELP</h3>
+
+                <a href="#">Contact Us</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+
+            </div>
+
+
+            <!-- Social -->
+            <div class="footer-column">
+
+                <h3>FOLLOW US</h3>
+
+                <div class="social">
+
+                    <span>Instagram</span>
+                    <span>Facebook</span>
+                    <span>TikTok</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 WEPE. All Rights Reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        // Tombol SHOP NOW
+        const shopButton = document.querySelector(".shop-button");
+
+        shopButton.addEventListener("click", function () {
+
+            document.querySelector(".products-section").scrollIntoView({
+                behavior: "smooth"
+            });
+
+        });
+
+
+        // Tombol VIEW ALL
+        const viewButton = document.querySelector(".view-button");
+
+        viewButton.addEventListener("click", function () {
+
+            alert("Produk WEPE akan segera tersedia!");
+
+        });
+
+
+        // Tombol EXPLORE
+        const exploreButton = document.querySelector(".second-content button");
+
+        exploreButton.addEventListener("click", function () {
+
+            document.querySelector(".products-section").scrollIntoView({
+                behavior: "smooth"
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>
